@@ -9,7 +9,6 @@ class Student
      @@all << self
   end
 
-# !will call Student.create_from_collection with return value of Scraper.scrape_index_page
   def self.create_from_collection(students_array)
     students_array.each {|s| Student.new(s)} 
   end
