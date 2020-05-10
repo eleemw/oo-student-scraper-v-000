@@ -15,7 +15,7 @@ class Student
 
   def add_student_attributes(attributes_hash)
     attributes_hash.each do |variable|
-      
+
     end     
   # and use meta-programming to dynamically assign student attributes and values per the k/v pairs of the hash
   # use #send method to achieve
